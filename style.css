@@ -1,0 +1,68 @@
+.header{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+}
+
+body{
+    text-align: center;
+    font-family: Verdana;
+    background-image: url(images/background2.jpg);
+    color: white;
+}
+
+img{
+    width: 24px;
+}
+.body_image{
+    width: 50%;
+    border-radius: 16px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding: 16px;
+}
+
+a, a:visited{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo{
+    width: 64px;
+    border: 2px solid whitesmoke;
+}
+
+div{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    justify-content: left;
+    padding: 0px 32px;
+}
+
+.header-tabs{
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 32px;
+    font-size: 24px;
+}
+
+.header-links{
+    justify-content: right;
+    padding: 0px 32px;
+}
+
+object, video{
+    border-radius: 16px;
+}
